@@ -1,2 +1,27 @@
 .DS_Store
 .ipynb_checkpoints/
+
+# Virtual environments (se regeneran con pip install)
+hapienv/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# HAPI cache (se regenera al ejecutar el notebook)
+hapicache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
