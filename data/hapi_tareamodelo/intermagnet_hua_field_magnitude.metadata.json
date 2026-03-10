@@ -1,0 +1,55 @@
+{
+  "HAPI": "3.1",
+  "status": {
+    "code": 1200,
+    "message": "ok"
+  },
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "length": 17,
+      "units": "UTC",
+      "fill": null,
+      "description": "The UTC date and time for the data from Huancayo, Peru (HUA)",
+      "label": "Date/time"
+    },
+    {
+      "name": "Field_Magnitude",
+      "type": "double",
+      "units": "nT",
+      "vectorComponents": "r",
+      "fill": "99999.0",
+      "description": "The scalar value of the magnetic field from an independent instrument at Huancayo, Peru (HUA)",
+      "label": "F"
+    }
+  ],
+  "startDate": "2002-01-01T00:00:00Z",
+  "stopDate": "2026-03-09T15:55:00Z",
+  "timeStampLocation": "begin",
+  "cadence": "PT1M",
+  "maxRequestDuration": "P366D",
+  "description": "Best-avail minute data in HDZF orientation, provided by Huancayo, Peru (HUA) observatory. See https://intermagnet.org/faq/10.geomagnetic-comp.html for a description of the Geomagnetic orientation used in this data.",
+  "coordinateSystemSchema": "spase2.4.1",
+  "resourceURL": "https://intermagnet.org",
+  "creationDate": "2002-01-01T00:00:00Z",
+  "citation": "https://intermagnet.org/data_conditions.html",
+  "contact": "e_ginman@bgs.ac.uk",
+  "x_latitude": -12.049999999999997,
+  "x_longitude": 284.67,
+  "x_elevation": 3313.0,
+  "x_server": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
+  "x_dataset": "hua/best-avail/PT1M/hdzf",
+  "x_parameters": "Field_Magnitude",
+  "x_time.min": "2012-03-05T00:00:00Z",
+  "x_time.max": "2012-03-08T00:00:00Z",
+  "x_requestDate": "2026-03-10T02:13:52",
+  "x_cacheDir": "hapicache/imag-data.bgs.ac.uk_GIN_V1_hapi",
+  "x_downloadTime": 1.5208077430725098,
+  "x_readTime": 0.0003180503845214844,
+  "x_metaFileParsed": "hapicache/imag-data.bgs.ac.uk_GIN_V1_hapi/hua@forwardslash@best-avail@forwardslash@PT1M@forwardslash@hdzf___.pkl",
+  "x_dataFileParsed": "hapicache/imag-data.bgs.ac.uk_GIN_V1_hapi/hua@forwardslash@best-avail@forwardslash@PT1M@forwardslash@hdzf_Field_Magnitude_20120305T000000_20120308T000000.npy",
+  "x_metaFile": "hapicache/imag-data.bgs.ac.uk_GIN_V1_hapi/hua@forwardslash@best-avail@forwardslash@PT1M@forwardslash@hdzf___.json",
+  "x_dataFile": "hapicache/imag-data.bgs.ac.uk_GIN_V1_hapi/hua@forwardslash@best-avail@forwardslash@PT1M@forwardslash@hdzf_Field_Magnitude_20120305T000000_20120308T000000.bin",
+  "x_totalTime": 3.122616767883301
+}

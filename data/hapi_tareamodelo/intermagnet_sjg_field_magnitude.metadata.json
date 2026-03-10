@@ -1,0 +1,55 @@
+{
+  "HAPI": "3.1",
+  "status": {
+    "code": 1200,
+    "message": "ok"
+  },
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "isotime",
+      "length": 17,
+      "units": "UTC",
+      "fill": null,
+      "description": "The UTC date and time for the data from San Juan, USA (SJG)",
+      "label": "Date/time"
+    },
+    {
+      "name": "Field_Magnitude",
+      "type": "double",
+      "units": "nT",
+      "vectorComponents": "r",
+      "fill": "99999.0",
+      "description": "The scalar value of the magnetic field from an independent instrument at San Juan, USA (SJG)",
+      "label": "F"
+    }
+  ],
+  "startDate": "1991-01-01T00:00:00Z",
+  "stopDate": "2026-03-10T07:10:00Z",
+  "timeStampLocation": "begin",
+  "cadence": "PT1M",
+  "maxRequestDuration": "P366D",
+  "description": "Best-avail minute data in HDZF orientation, provided by San Juan, USA (SJG) observatory. See https://intermagnet.org/faq/10.geomagnetic-comp.html for a description of the Geomagnetic orientation used in this data.",
+  "coordinateSystemSchema": "spase2.4.1",
+  "resourceURL": "https://intermagnet.org",
+  "creationDate": "1991-01-01T00:00:00Z",
+  "citation": "https://intermagnet.org/data_conditions.html",
+  "contact": "e_ginman@bgs.ac.uk",
+  "x_latitude": 18.11,
+  "x_longitude": 293.85,
+  "x_elevation": 424.0,
+  "x_server": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
+  "x_dataset": "sjg/best-avail/PT1M/hdzf",
+  "x_parameters": "Field_Magnitude",
+  "x_time.min": "2012-03-05T00:00:00Z",
+  "x_time.max": "2012-03-08T00:00:00Z",
+  "x_requestDate": "2026-03-10T02:13:49",
+  "x_cacheDir": "hapicache/imag-data.bgs.ac.uk_GIN_V1_hapi",
+  "x_downloadTime": 1.4686877727508545,
+  "x_readTime": 0.0004360675811767578,
+  "x_metaFileParsed": "hapicache/imag-data.bgs.ac.uk_GIN_V1_hapi/sjg@forwardslash@best-avail@forwardslash@PT1M@forwardslash@hdzf___.pkl",
+  "x_dataFileParsed": "hapicache/imag-data.bgs.ac.uk_GIN_V1_hapi/sjg@forwardslash@best-avail@forwardslash@PT1M@forwardslash@hdzf_Field_Magnitude_20120305T000000_20120308T000000.npy",
+  "x_metaFile": "hapicache/imag-data.bgs.ac.uk_GIN_V1_hapi/sjg@forwardslash@best-avail@forwardslash@PT1M@forwardslash@hdzf___.json",
+  "x_dataFile": "hapicache/imag-data.bgs.ac.uk_GIN_V1_hapi/sjg@forwardslash@best-avail@forwardslash@PT1M@forwardslash@hdzf_Field_Magnitude_20120305T000000_20120308T000000.bin",
+  "x_totalTime": 2.8896639347076416
+}

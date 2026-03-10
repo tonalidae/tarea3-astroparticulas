@@ -1,0 +1,46 @@
+{
+  "HAPI": "2.0",
+  "status": {
+    "code": 1200,
+    "message": "OK"
+  },
+  "title": "NOAA/SWPC Real-Time Solar Wind Data: Builk Paramters of the Solar Wind Plasma (1-minute)",
+  "description": "Real-Time Solar Wind: Builk Paramters of the Solar Wind Plasma (1-minute) from NOAA/SWPC.  SWPC maintains the ability to instantaneously switch the spacecraft that provides the RTSW data.",
+  "startDate": "2000-04-01T00:00:00Z",
+  "stopDate": "2026-03-07T20:15:00Z",
+  "parameters": [
+    {
+      "fill": "null",
+      "length": 22,
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC"
+    },
+    {
+      "fill": "-9999.9",
+      "name": "ProtonDensity",
+      "type": "double",
+      "units": "p/cc"
+    },
+    {
+      "fill": "-100000",
+      "name": "IonTemperature",
+      "type": "double",
+      "units": "K"
+    }
+  ],
+  "x_server": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
+  "x_dataset": "swpc_rtsw_plasma_P1M",
+  "x_parameters": "ProtonDensity,IonTemperature",
+  "x_time.min": "2012-03-05T00:00:00Z",
+  "x_time.max": "2012-03-08T00:00:00Z",
+  "x_requestDate": "2026-03-07T15:27:30",
+  "x_cacheDir": "./hapicache/iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi",
+  "x_downloadTime": 0.7123889923095703,
+  "x_readTime": 0.007614850997924805,
+  "x_metaFileParsed": "./hapicache/iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi/swpc_rtsw_plasma_P1M___.pkl",
+  "x_dataFileParsed": "./hapicache/iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi/swpc_rtsw_plasma_P1M_ProtonDensity,IonTemperature_20120305T000000_20120308T000000.npy",
+  "x_metaFile": "./hapicache/iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi/swpc_rtsw_plasma_P1M___.json",
+  "x_dataFile": "./hapicache/iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi/swpc_rtsw_plasma_P1M_ProtonDensity,IonTemperature_20120305T000000_20120308T000000.csv",
+  "x_totalTime": 0.0019540786743164062
+}

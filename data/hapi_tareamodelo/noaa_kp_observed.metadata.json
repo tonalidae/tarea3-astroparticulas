@@ -1,0 +1,41 @@
+{
+  "HAPI": "2.0",
+  "status": {
+    "code": 1200,
+    "message": "OK"
+  },
+  "title": "NOAA SWPC 3-hourly observed, estimated, and predicted Kp",
+  "description": "The Observed, Estimated, and Predicted 3-hour Planetary Kp-index is derived at the NOAA Space Weather Prediction Center using data from ground-based magnetometers via this URL: https://services.swpc.noaa.gov/products/noaa-planetary-k-index-forecast.json",
+  "startDate": "1994-01-01T00:00:00Z",
+  "stopDate": "2026-03-10T00:00:00Z",
+  "parameters": [
+    {
+      "fill": "null",
+      "length": 22,
+      "name": "Time",
+      "type": "isotime",
+      "units": "UTC"
+    },
+    {
+      "fill": "null",
+      "name": "Kp_observed",
+      "type": "double",
+      "units": "unitless",
+      "description": "Observed 3-hourly Kp"
+    }
+  ],
+  "x_server": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
+  "x_dataset": "NOAA_KP_P3H",
+  "x_parameters": "Kp_observed",
+  "x_time.min": "2012-03-05T00:00:00Z",
+  "x_time.max": "2012-03-08T00:00:00Z",
+  "x_requestDate": "2026-03-07T15:27:24",
+  "x_cacheDir": "./hapicache/iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi",
+  "x_downloadTime": 0.41872286796569824,
+  "x_readTime": 0.0011372566223144531,
+  "x_metaFileParsed": "./hapicache/iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi/NOAA_KP_P3H___.pkl",
+  "x_dataFileParsed": "./hapicache/iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi/NOAA_KP_P3H_Kp_observed_20120305T000000_20120308T000000.npy",
+  "x_metaFile": "./hapicache/iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi/NOAA_KP_P3H___.json",
+  "x_dataFile": "./hapicache/iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi/NOAA_KP_P3H_Kp_observed_20120305T000000_20120308T000000.csv",
+  "x_totalTime": 0.0020182132720947266
+}
